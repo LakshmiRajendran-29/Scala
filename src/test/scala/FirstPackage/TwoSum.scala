@@ -9,7 +9,7 @@ object May20 {
 
     for(i<- 1 until arr.length){
       for(j<- i+1 until arr.length){
-        if(arr(i) + arr(j) == 100){
+        if(arr(i) + arr(j) == targetSum){
         println(arr(i), arr(j))
       }
     }
